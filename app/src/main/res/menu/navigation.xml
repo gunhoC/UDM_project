@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu1"
+        android:icon="@android:drawable/ic_menu_today"
+        android:title="실시간" />
+
+    <item
+        android:id="@+id/menu2"
+        android:icon="@android:drawable/ic_menu_recent_history"
+        android:title="월별기록" />
+
+    <item
+        android:id="@+id/menu3"
+        android:icon="@android:drawable/ic_dialog_dialer"
+        android:title="차트" />
+
+    <item
+        android:id="@+id/menu4"
+        android:icon="@android:drawable/ic_menu_preferences"
+        android:title="기준설정" />
+
+</menu>

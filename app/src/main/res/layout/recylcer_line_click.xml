@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:background="#343434"
+    android:orientation="vertical"
+    android:scrollbarFadeDuration="0"
+    android:scrollbarSize="5dp">
+
+    <com.github.mikephil.charting.charts.PieChart
+        android:id="@+id/tv_P_l"
+        style="@style/Base.Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="40dp"
+        android:background="#343434"
+        android:max="100"
+        app:layout_constraintStart_toEndOf="@+id/tv_A_l"
+        app:layout_constraintTop_toBottomOf="@+id/textView7"></com.github.mikephil.charting.charts.PieChart>
+
+    <com.github.mikephil.charting.charts.PieChart
+        android:id="@+id/tv_A_l"
+        style="@style/Base.Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="40dp"
+        android:background="#343434"
+        android:max="100"
+        app:layout_constraintStart_toEndOf="@+id/tv_click_oee_l"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"></com.github.mikephil.charting.charts.PieChart>
+
+    <com.github.mikephil.charting.charts.PieChart
+        android:id="@+id/tv_Q_l"
+        style="@style/Base.Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="40dp"
+        android:background="#343434"
+        android:max="100"
+        app:layout_constraintStart_toEndOf="@+id/tv_P_l"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <TextView
+        android:id="@+id/tv_time_l"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="8dp"
+        android:background="#343434"
+        android:text=" Mechanism RH"
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="110dp"
+        android:layout_height="20sp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="8dp"
+        android:background="#343434"
+        android:gravity="center"
+        android:text="설비 종합 효율"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_time_l" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="75dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="30dp"
+        android:background="#343434"
+        android:text="시간가동률"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/textView10"
+        app:layout_constraintTop_toBottomOf="@+id/tv_time_l" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="75dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="30dp"
+        android:background="#343434"
+        android:text="성능가동률"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/tv_time_l" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="55dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="30dp"
+        android:background="#343434"
+        android:text="양품률"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/textView7"
+        app:layout_constraintTop_toBottomOf="@+id/tv_time_l" />
+
+
+    <com.github.mikephil.charting.charts.PieChart
+        android:id="@+id/tv_click_oee_l"
+        style="@style/Base.Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="12dp"
+
+        android:layout_marginTop="12dp"
+        android:background="#343434"
+        android:max="100"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10"></com.github.mikephil.charting.charts.PieChart>
+
+
+</android.support.constraint.ConstraintLayout>
