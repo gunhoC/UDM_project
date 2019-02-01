@@ -6,6 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="#484851"
     android:scrollbarFadeDuration="0"
     android:scrollbarSize="5dp">
 
@@ -13,11 +14,12 @@
         android:id="@+id/TITLE"
         android:layout_width="0dp"
         android:layout_height="50dp"
+        android:layout_marginTop="1dp"
         android:background="#303030"
         android:gravity="center"
         android:text="오늘의 생산효율"
         android:textColor="@android:color/white"
-        android:textSize="40dp"
+        android:textSize="35dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
